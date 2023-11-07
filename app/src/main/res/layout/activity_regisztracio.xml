@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:hint="Email"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editTextUserNameReg"
+        android:layout_width="match_parent"
+        android:hint="Felhasználónév"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editTextPasswordReg"
+        android:layout_width="match_parent"
+        android:hint="Jelszó"
+        android:layout_height="wrap_content"    />
+
+    <EditText
+        android:id="@+id/editTextFullName"
+        android:layout_width="match_parent"
+        android:hint="Teljes név"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:text="Regisztráció"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonBack"
+        android:text="Vissza"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
